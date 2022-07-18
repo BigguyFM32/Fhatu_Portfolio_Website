@@ -82,6 +82,7 @@ a:hover {
   float: center;
   padding: 10px;
   margin-left: 50px;
+  transform: translateX(4%);
 }
 .hero-btn {
   background: transparent;
@@ -90,6 +91,10 @@ a:hover {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
+}
+.hero-btn:hover {
+  background: blueviolet;
+  transition: 1s;
 }
 .hero-center p {
   margin-bottom: 1.5rem;
@@ -110,6 +115,7 @@ a:hover {
     transition: all 0.5s;
     left: -100%;
     text-align: center;
+    z-index: 2;
   }
   nav ul li {
     display: block;
@@ -142,5 +148,6 @@ a:hover {
     width: 45%;
     height: 20%;
     margin-left: 35px;
+    transform: translateX(2px);
   }
 }
