@@ -54,11 +54,11 @@
           <div class="about-col-2">
             <h1 class="subtitle">About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              veniam nisi id incidunt ex exercitationem accusamus pariatur
-              debitis molestias quo eos expedita illo facere cupiditate quas
-              fugit dolorem, placeat error. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. At, soluta!
+              I am Bsc Mathematical Sciences graduate who is passionate about
+              technology and coding. I enjoy learning about software development
+              and data science. I love learning about how software works and how
+              to build one myself. Also how to store data in databases and also
+              code the backend. I love learning about mobile app development.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -74,33 +74,41 @@
                 <li><span>UI/IX</span><br />Designing Web/App Interfaces</li>
                 <li><span>Web Development</span><br />Web App Development</li>
                 <li>
-                  <span>App Development</span><br />Building Android/IOS Apps
+                  <span>Data Science</span><br />Building Machine Learning
+                  Models
                 </li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
               <ul>
                 <li>
-                  <span>2021 - Current</span><br />UI/UX Design Training at ET
-                  Institute
-                </li>
-                <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC.</li>
-                <li>
-                  <span>2017 - 2019</span><br />UI/UX Design Executive at Coin
-                  Digital Ltd.
+                  <span>2022 - Current</span><br />Full-Stack Software
+                  Development Internship at The Digital Academy
                 </li>
                 <li>
-                  <span>2016 - 2017</span><br />Internship at ekart eCommerce.
+                  <span>2021 - 2021</span><br />Data Science Internship at
+                  Explore Data Science Academy
+                </li>
+                <li>
+                  <span>2020 - 2020</span><br />Data Science Training at Deviare
+                </li>
+                <li>
+                  <span>2018 - 2018</span><br />Supplementary Instructor Leader
+                  at University of Limpopo
                 </li>
               </ul>
             </div>
             <div class="tab-contents" id="education">
               <ul>
+                <li><span>2007</span><br />Mbilwi Secondary School</li>
                 <li>
-                  <span>2016</span><br />UI/UX Design Training at ET Institute
+                  <span>2016</span><br />BSc Mathematical Sciences at University
+                  of Limpopo
                 </li>
-                <li><span>2016</span><br />MBA from MIT Bangalore.</li>
-                <li><span>2014</span><br />BBA from ISM Bangalore</li>
+                <li>
+                  <span>2020</span><br />Bsc(Hons) Computer Science at
+                  University of Limpopo
+                </li>
               </ul>
             </div>
           </div>
@@ -119,12 +127,21 @@
             </p>
             <p><i class="fa-solid fa-square-phone"></i> 0606909813</p>
             <div class="social-icons">
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.facebook.com/martin.raphalalani"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://za.linkedin.com/in/fhatuwani-martin-raphalalani-51bb98172"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/BigguyFM32"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </div>
-            <a href="my-cv.pdf" download class="btn btn2 hero-btn"
+            <a href="./assets/RFM_CV.pdf" download class="btn btn2 hero-btn"
               >Download CV</a
             >
           </div>
@@ -160,19 +177,6 @@
       </div>
     </section>
 
-    <script>
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classlist.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classlist.remove("active-tab");
-        }
-        event.currentTarget.classlist.add("active-link");
-        document.getElementById(tabname).classlist.add("active-tab");
-      }
-    </script>
+    <script src="portfolio.js"></script>
   </body>
 </html>
